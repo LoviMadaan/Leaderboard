@@ -25,25 +25,40 @@
 # 📖 LEADERBOARD <a name="about-project"></a>
 
 
-**To Do List** An application for adding and removing books that highlights the use of ES6. 
+*# 📖 Leaderboard
+
+> This is Leaderboard website Users can add scores and names permanently in by using this Leaderboard webiste. I used HTML, CSS, JS and API in this project.
 
 ## 🛠 Built With <a name="built-with"></a>
-    HTML
-    CSS
-    Javascript
-    Webpack
+- HTML
+- CSS
+- JS
+### Tech Stack <a name="tech-stack"></a>
 
+> I Used Gitflow, modules, and advanced JS (ES6) in the Leaderboard Project.
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+     <li><a href="https://www.w3schools.com/css/">Javascript</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Html structure with Button, Inputs, etc]**
+- **[Styling css with colors, borders, paddings, margins & sizes, etc]**
+_ **[javascript functions, modules, ES6 syntax, variables, etc]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-[Coming soon....]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+> I will Add style in this project with functions.
 
 <!-- GETTING STARTED -->
 

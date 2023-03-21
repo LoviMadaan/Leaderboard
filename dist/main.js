@@ -1,4 +1,3 @@
-/* eslint-disable */
 "use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
@@ -116,7 +115,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/variables.js */ \"./src/modules/variables.js\");\n\n\n\nfor (let i = 1; i < _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].length; i += 2) {\n  _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].style.backgroundColor = '#dddddd';\n}\n\n(0,_modules_variables_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/variables.js */ \"./src/modules/variables.js\");\n\n\n\nfor (let i = 1; i < _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].length; i += 2) {\n  _modules_variables_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].style.backgroundColor = '#dddddd';\n}\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ }),
 
@@ -126,7 +125,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst gameScores = document.querySelectorAll(\".game-score\");\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (gameScores);\n\n//# sourceURL=webpack://leaderboard/./src/modules/variables.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst gameScores = document.querySelectorAll('.game-score');\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (gameScores);\n\n//# sourceURL=webpack://leaderboard/./src/modules/variables.js?");
 
 /***/ })
 
