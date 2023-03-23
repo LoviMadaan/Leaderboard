@@ -8,17 +8,19 @@
     <title>LEADERBOARD</title>
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
-    <header>
+    <header class="head">
+        <div class="head-style">
         <h1 class="header">Scoreboard</h1>
+    </div>
     </header>    
-    <main>
+    <main class="whole-page">
         <section>       
         <div class="a-container">
             <div class="b-container">
                 <div class="c-container">
                     <div class="recent-scores">
                         <h2>Recent scores</h2>
-                        <button type='button' id="ref-btn">Refresh</button>
+                        <button type='button' id="ref-btn"><span>Refresh</span></button>
                     </div>
                     <ul class="score-container" id="score-added"></ul>
                 </div>
@@ -26,17 +28,18 @@
                 <div class="c-container">
                     <div class="input-data">
                         <h2>Add your scores</h2>
-                        <input type="text" id="game-user" placeholder="Enter User Name" required />
+                        <input type="text" id="game-user" placeholder="Enter User Name" id="placeholder" required />
                         <br />
-                        <input type="text" id="game-score" placeholder="Enter High Score" required />
+                        <input type="text" id="game-score" placeholder="Enter High Score" id="placeholder" required />
                         <br />
-                        <button type='button' id="score-btn">Submit</button>
+                        <button type='button' id="score-btn"><span>Submit</span></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     </main>
+    <footer class="footer"></footer>
     <script src="./index.js"></script>
 </body>
 </html>

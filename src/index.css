@@ -4,6 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* background: linear-gradient(rgb(233, 101, 189),rgb(191, 224, 59)); */
+}
+
+.head {
+  background: linear-gradient(rgb(190, 227, 231), rgb(64, 176, 241));
 }
 
 .header {
@@ -12,6 +18,16 @@
   font-size: 4rem;
   padding-top: 4%;
   padding-bottom: 2%;
+}
+
+.head-style:hover {
+  width: 300px;
+  height: 150px;
+}
+
+.whole-page {
+  background: linear-gradient(rgb(246, 246, 173), rgb(68, 239, 68));
+  height: 40rem;
 }
 
 .a-container {
@@ -40,23 +56,6 @@
   justify-content: space-between;
 }
 
-#ref-btn {
-  width: 100px;
-  height: 2.5rem;
-  background: transparent;
-  border: 2px solid #000;
-  border-right: 5px solid #000;
-  border-bottom: 5px solid #000;
-  padding: 3px 3px;
-  margin-right: 35px;
-  cursor: pointer;
-  background-color: aqua;
-}
-
-#ref-btn:hover {
-  color: blue;
-}
-
 .score-container {
   width: 90%;
   height: 250px;
@@ -76,24 +75,61 @@
   height: 2rem;
 }
 
-#score-btn {
-  float: right;
-  margin-right: 70px;
-  background: transparent;
-  border: 2px solid #000;
-  border-right: 4px solid #000;
-  border-bottom: 4px solid #000;
-  padding: 3px 5px;
+#score-btn,
+#ref-btn {
+  display: inline-block;
+  background-color: #6c1bde;
+  border-radius: 10px;
+  border: 4px double #ccc;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 18px;
+  width: 180px;
+  transition: all 0.5s;
   cursor: pointer;
-  font-weight: bold;
-  background-color: aqua;
+  margin: 5px;
 }
 
-#score-btn:hover:active {
-  color: rgb(1, 72, 25);
+#score-btn span,
+#ref-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#score-btn span::after,
+#ref-btn span::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#score-btn:hover,
+#ref-btn:hover {
+  background-color: #e734ed;
+}
+
+#score-btn:hover span,
+#ref-btn:hover span {
+  padding-right: 25px;
+}
+
+#score-btn:hover span::after,
+#ref-btn:hover span::after {
+  opacity: 1;
+  right: 0;
 }
 
 h2 {
   font-size: 32px;
   margin-bottom: 5%;
+}
+
+.game-records:hover {
+  background-color: #6c1bde;
 }
