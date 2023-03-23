@@ -60,6 +60,10 @@ _ **[javascript functions, modules, ES6 syntax, variables, etc]**
 
 > I will Add style in this project with functions.
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> - [Live Demo Link](https://lovimadaan.github.io/Leaderboard/dist/)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
