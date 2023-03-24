@@ -28,6 +28,9 @@
 *# 📖 Leaderboard
 
 > This is Leaderboard website Users can add scores and names permanently in by using this Leaderboard webiste. I used HTML, CSS, JS and API in this project.
+<table>
+  <td style="border: 1px solid black;"><img src="ss.png" alt="LEADERBOARD" /></td>
+  </table>
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
